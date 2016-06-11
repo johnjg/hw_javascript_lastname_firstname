@@ -62,8 +62,7 @@ numba ('university');
 function inception ( display, favMovie ) {
   display(favMovie);
 }
-favMovie + ' is a fantastic movie.'
-var favMovie = 'Batman'
+var favMovie = 'Batman';
 function display () {
   return favMovie + ' is a fantastic movie.'
 };
