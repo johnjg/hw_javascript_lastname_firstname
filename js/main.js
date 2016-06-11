@@ -45,3 +45,19 @@ function howdy() {
   return 'John Gotschall says hi!';
 }
 console.log ( howdy() );
+//function expressions
+var numba = function ( string ) {
+  if (string.length < 7) {
+    console.log ('What a short little word!');
+  } else if (string.length > 7) {
+    console.log ('I’m	sorry, but that’s too many to count.');
+  } else {
+    console.log ('7, what a perfect choice!');
+  }
+}
+var message = numba ('7');
+console.log ( message );
+var message = numba ('seventy');
+console.log ( message );
+var message = numba ('university');
+console.log ( message );
