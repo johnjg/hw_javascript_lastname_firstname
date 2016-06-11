@@ -55,9 +55,15 @@ var numba = function ( string ) {
     console.log ('7, what a perfect choice!');
   }
 }
-var message = numba ('7');
-console.log ( message );
-var message = numba ('seventy');
-console.log ( message );
-var message = numba ('university');
-console.log ( message );
+numba ('7');
+numba ('seventy');
+numba ('university');
+//inception function
+function inception ( display, favMovie ) {
+  display(favMovie);
+}
+//var favMovie = 'Batman'
+//function display () {
+//  return favMovie + ' is a fantastic movie.'
+//};
+//console.log ( display() );
