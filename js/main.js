@@ -40,3 +40,8 @@ var presidents = [
   }
 ];
 console.log ( presidents[2].firstName + ' ' + presidents[2].lastName );
+//functions branch
+function howdy() {
+  return 'John Gotschall says hi!';
+}
+console.log ( howdy() );
